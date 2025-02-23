@@ -48,6 +48,7 @@ OpenGL version string: 4.6 (Compatibility Profile) Mesa 24.2.8-1ubuntu1~24.04.1
 
 - instll openGL library
 >apt install freeglut3-dev
+>conda install pyopengl
 - issue of missing xkbcommon library
 >sudo apt install libwayland-dev libxkbcommon-dev xorg-dev
 
