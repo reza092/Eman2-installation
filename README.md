@@ -65,7 +65,7 @@ OpenGL version string: 4.6 (Compatibility Profile) Mesa 24.2.8-1ubuntu1~24.04.1
 >
 >cd build
 >
->cmake <source-directory> -DENABLE_OPTIMIZE_MACHINE=ON
+>cmake /source-directory -DENABLE_OPTIMIZE_MACHINE=ON
   - in case of error of not finding python, reboot & activate eman2 env
 >make -j 8
 >
