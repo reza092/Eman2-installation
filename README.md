@@ -51,6 +51,13 @@ OpenGL version string: 4.6 (Compatibility Profile) Mesa 24.2.8-1ubuntu1~24.04.1
 >conda install pyopengl
 - issue of missing xkbcommon library
 >sudo apt install libwayland-dev libxkbcommon-dev xorg-dev
+>
+# GPU acceleration & Deep learning
+Older EMAN2 programs make use of Tensorflow for Deep Learning/GPU support, but it is gradually migrating to the new JAX library, so having both installed is strongly suggested
+
+* Tensorflow is automatically installed in the environment
+* JAX: installed cuda 11.8 in the system, so install cuda11
+>pip install -U "jax[cuda11]"
 
 # Installation
 >cd EMAN2
